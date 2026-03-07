@@ -4,7 +4,7 @@ local CFG = {
     MAX_DEG=6.0, JITTER=0.3, CHEST_Z=25, MY_EYE_Z=55,
     AIM_SMOOTH=0.15,        -- Smoothing factor per tick (0.0=no move, 1.0=instant snap)
     AIM_SMOOTH_FIRST=0.6,   -- Higher smoothing for the very first frame of firing (fast initial lock)
-    LOGP="/storage/emulated/0/Android/data/com.tencent.tmgp.codev/files/UE4Game/CodeV/CodeV/Saved/Paks/puffer_temp/aimbot_log_v7.txt",
+    LOGP="/storage/emulated/0/Android/data/com.tencent.tmgp.codev/files/UE4Game/CodeV/CodeV/Saved/Paks/puffer_temp/aimbot_log_v8.txt",
 }
 local ok_tt,TT=pcall(require,"Common.Framework.TimeTicker")
 local AP=nil
